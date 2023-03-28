@@ -8,7 +8,7 @@ public class Number_Operators {
     int b;
     char op;
     int addition,subtraction,multiplication;
-    float division;
+    double division;
 
     //non-static method
     public void operate() {
@@ -21,7 +21,7 @@ public class Number_Operators {
         int addition = a + b;
         int subtraction = a - b;
         int multiplication = a * b;
-        float division = a/ b;
+        double division = a*1.0/ b;
 
 
         char op = scanner.next().charAt(0);// initialize char using scanner object

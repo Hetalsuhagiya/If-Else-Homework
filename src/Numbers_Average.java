@@ -15,7 +15,7 @@ public class Numbers_Average {
         int num4 = scanner.nextInt();
         int num5 = scanner.nextInt();
         //calculate the average of 5 numbers and return the same
-        double average = ((num1 + num2 + num3 + num4 + num5) / 5);
+        double average = ((num1 + num2 + num3 + num4 + num5)*1.0 / 5);
         System.out.println("The Average of the numbers is: " + average);
     }
 
